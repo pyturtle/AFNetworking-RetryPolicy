@@ -18,7 +18,8 @@ let package = Package(
     targets: [
         .target(
             name: "AFNetworking+RetryPolicy",
-            dependencies: [.product(name: "AFNetworking", package: "AFNetworking"),        )
+            dependencies: [.product(name: "AFNetworking", package: "AFNetworking")
+                          )
     ],
     swiftLanguageVersions: [.v5]
 )
