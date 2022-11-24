@@ -10,7 +10,7 @@
 // - Copyright (c) 2016 Jakub Truhlar. All rights reserved.
 //
 
-#import <Sources/ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers.h>
+#import <ObjcAssociatedObjectHelpers.h>
 
 #import "AFHTTPSessionManager+RetryPolicy.h"
 
