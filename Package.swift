@@ -14,14 +14,11 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AFNetworking/AFNetworking", from: "4.0.0"),
-        .package(url: "https://github.com/itsthejb/ObjcAssociatedObjectHelpers", from: "2.0.1")
     ],
     targets: [
         .target(
             name: "AFNetworking+RetryPolicy",
-            dependencies: [.product(name: "AFNetworking", package: "AFNetworking"),
-                           .product(name: "ObjcAssociatedObjectHelpers", package: "ObjcAssociatedObjectHelpers")]
-        )
+            dependencies: [.product(name: "AFNetworking", package: "AFNetworking"),        )
     ],
     swiftLanguageVersions: [.v5]
 )
