@@ -20,5 +20,5 @@ let package = Package(
             name: "AFNetworking+RetryPolicy",
             dependencies: [.product(name: "AFNetworking", package: "AFNetworking")
                           )
-    ],\
+    ]
 )
